@@ -34,6 +34,8 @@ export const Column = styled.div`
   flex: 1;
   
   @media screen and (min-width: 700px) {
+  flex-direction: column;
+  flex: 1;
   }
 `
 export const DoubleColumn = styled.div`
@@ -80,15 +82,13 @@ export const HogwonHashtag = styled.div`
 `;
 
 export const Bottom = styled.div`
-
+  margin: 1rem;
 `;
 
 export const Rating = styled.div`
   svg {
     vertical-align: middle;
-    margin-bottom: 0.3rem;
-    height: 10px;
-  
+    margin-bottom: 0.3rem;  
   }
   span {
     vertical-align: middle;
@@ -98,6 +98,7 @@ export const Rating = styled.div`
   }
 
   span:first-child {
+
     color: #333;
     margin-right: 0.5rem;
   }

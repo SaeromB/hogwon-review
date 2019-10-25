@@ -24,11 +24,19 @@ const MainCard = () => {
           </S.DoubleColumn>
         </S.Row>
       </S.Wrapper>
+      
       <S.Bottom>
-        <S.Rating>
-          <img src={star} alt={'star'}/>
-
-        </S.Rating>
+        <S.Wrapper>
+          <S.Row>
+            <S.Column>
+              <S.Rating>
+              <img src={star} alt={'star'}/>
+              <span>4.8</span>
+              <span>(440)</span>
+              </S.Rating>
+            </S.Column>
+        </S.Row>
+        </S.Wrapper>
       </S.Bottom>
     </S.CardContainer>
   );
