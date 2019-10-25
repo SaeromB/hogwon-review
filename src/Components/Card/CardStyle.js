@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const CardContainer = styled.div`
-  margin: auto;
-  padding: auto;
+  margin: 2rem;;
+  padding: 3rem 2rem;
   background: white;
   border-radius: 0.5rem;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
