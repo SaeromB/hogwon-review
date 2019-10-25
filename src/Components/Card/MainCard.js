@@ -1,6 +1,7 @@
 import React from 'react';
 import * as S from './CardStyle';
 import hwlogo from '../Image/Hwlogo/hwlogo.png';
+import star from '../Image/Star/star.svg';
 
 const MainCard = () => {
   return(
@@ -23,6 +24,12 @@ const MainCard = () => {
           </S.DoubleColumn>
         </S.Row>
       </S.Wrapper>
+      <S.Bottom>
+        <S.Rating>
+          <img src={star} alt={'star'}/>
+
+        </S.Rating>
+      </S.Bottom>
     </S.CardContainer>
   );
 };

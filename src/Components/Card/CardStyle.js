@@ -1,7 +1,9 @@
 import styled from 'styled-components';
+import React from 'react';
+import star from '../Image/Star/star.svg'
 
 export const CardContainer = styled.div`
-  margin: 2rem;;
+  margin: 2rem;
   padding: 3rem 2rem;
   background: white;
   border-radius: 0.5rem;
@@ -14,7 +16,6 @@ export const CardContainer = styled.div`
     padding: 2rem;
   }
 `;
-
 
 export const Wrapper = styled.div`
   margin-top: 5px;
@@ -82,28 +83,23 @@ export const Bottom = styled.div`
 
 `;
 
-export const StarImage = styled.div`
-  img { 
-  display: flex;
-  vertical-align: middle;
-  height: 1rem;
-  width: 1rem;
- }
-
- @media only screen and (min-width: 700px) {
-   vertical-align: middle;
-   flex: 1;
-   /* margin-bottom: 0;
-   margin-left: 1.5rem; */
- }
-`;
-
 export const Rating = styled.div`
+  svg {
+    vertical-align: middle;
+    margin-bottom: 0.3rem;
+    height: 10px;
+  
+  }
   span {
     vertical-align: middle;
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #333;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #999;
   }
-`
+
+  span:first-child {
+    color: #333;
+    margin-right: 0.5rem;
+  }
+`;
 

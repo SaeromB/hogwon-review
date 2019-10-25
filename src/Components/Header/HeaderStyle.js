@@ -10,10 +10,11 @@ export const HeaderContainer = styled.div`
   height: 6rem;
   padding: 1rem;
   justify-content: space-between;
+  align-items: center;
   margin: 0;
 
   @media only screen and (min-width: 960px){
-    max-width: 19rem;
+    max-width: 100.4;
     margin: 0;
     padding: 0 auto;
   }
@@ -21,9 +22,10 @@ export const HeaderContainer = styled.div`
 
 export const SchoolLogo = styled.div`
   img {
-    width: 3.4rem;
-    align-content: left;
-    display: inline-block;
+    width: 2.5rem;
+    align-content: center;
+    display: right;
+    padding: 0.5rem;
   }
 `;
 
